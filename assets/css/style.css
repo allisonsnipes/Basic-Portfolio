@@ -2,10 +2,14 @@
   
 }
 
+#img1 {
+  width: 250px;
+  height: 250px;
+}
 h {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 p {
-  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
