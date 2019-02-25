@@ -1,20 +1,86 @@
 * {
-  background-image: 
+ box-sizing: border-box;
+ display: block;
+ margin: 0px;
 }
 
+/*styles navigation bar */
+.nav {
+  background-color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+/* styles the nav bar a tag */
+.nav a {
+  float: right;
+  text-align: right;
+  width: 33.33%;
+}
+
+/* styles header inside navbar*/
+h1 {
+  background-color: salmon;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  float: left;
+  text-align: left;
+  width: 33.33%;
+}
+
+/* styles links inside navbar */
+.active {
+  text-align: right;
+  background-color: salmon;
+}
+
+/* styles body background image*/
+#mainbackground { 
+  
+}
+
+/* styles the body */
+body {
+  background-image: url("../images/gray.png");
+}
+
+/* styles inside of body section class */
+.boxsections {
+  padding: 10px;
+  border: 10px;
+  width: 960px;
+  height: 550px;
+  background-color: white;
+}
+
+/* styles the h2 tag inside of body section class */
+.aboutme {
+  color: salmon;
+}
+
+/*styles image */
 .img1 {
   display: inline-block;
   float: left;
+  padding: 20px;
   width: 350px;
   height: 400px;
 }
 
-h {
-  font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/* styles paragraph */
 p {
   display: inline-block;
   float: right;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* styles footer */
+footer {
+  background-image: ;
+}
+
+/* styles footer text */
+.footertext {
+  text-align: center;
 }
