@@ -1,7 +1,3 @@
-* {
- display: flex;
-}
-
 .banner {
   float: right;
   padding: 20px;
@@ -58,10 +54,17 @@ h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   float: left;
   text-align: left;
-  width: 25%;
+  width: 100%
   height: 100%;
 }
 
+.leftbox {
+
+}
+
+.rightbox{
+
+}
 
 /* styles body background image*/
 #mainbackground { 
