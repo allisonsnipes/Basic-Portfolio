@@ -1,10 +1,13 @@
 .banner {
   float: right;
   padding: 20px;
-  margin: 0em right;
+  margin: auto;
   margin-right: 120px;
   display: inline-block;
   width: 100%;
+  height: 30px;
+  position: relative;
+  padding: 2px;
 }
 
 /*styles navigation bar */
@@ -13,26 +16,29 @@
   display: inline-block;
   width: 100%;
   float: right;
-  height: 100%;
 }
 
 /* style section for header and nav bar*/
 .leftbox {
-  width: 33.33%;
-  display: inline;
+  width: 50%;
+  display: inline-block;
   float: left;
   height: 100%;
   margin: 0em left;
   margin-left: 140px;
   padding: 2px;
-  text-align: center;
+  text-align: left;
 }
 
 .rightbox{
-  width: 33.33%;
-  display: inline;
+  width: 50%;
+  display: inline-block;
   float: right;
   height: 100%;
+  margin: 0em right;
+  margin-right: 140px;
+  padding: 2px;
+  text-align: right;
 }
 
 /* styles the nav bar links */
@@ -42,6 +48,7 @@ ul {
   padding: 0;
   overflow: hidden;
   float: right;
+  height: 100%;
 }
 
 li {
@@ -64,7 +71,6 @@ li a:hover {
 
 /* shows current location inside navbar */
 .active {
-  text-align: right;
   background-color: salmon;
 }
 
@@ -74,9 +80,8 @@ h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   float: left;
   text-align: left;
-  width: 100%;
-  height: 100%;
   margin: auto;
+  padding: 0;
 }
 
 /* styles body background image*/
@@ -137,6 +142,7 @@ p {
   right: 0;
   height: 30px;
   display: block;
+  margin: auto;
 
 }
 
