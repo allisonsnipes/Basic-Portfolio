@@ -5,18 +5,18 @@
 .banner {
   float: right;
   padding: 20px;
-  margin: 0;
-  display: inline;
-  
+  margin: 0em right;
+  margin-right: 120px;
+  display: inline-block;
   width: 100%;
 }
 
 /*styles navigation bar */
 .nav {
   background-color: white;
-  display: block;
+  display: inline-block;
   width: 100%;
-  height: 100%;
+  float: right;
 }
 
 /* styles the nav bar links */
@@ -25,16 +25,18 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  float: right;
 }
 
 li {
-  float: left;
+  float: right;
 }
 
 /* styles the nav bar a tag */
 li a {
   display: block;
   padding: 8px;
+  background-color: white;
 }
 
 /* styles header inside navbar*/
@@ -106,10 +108,16 @@ p {
   position: fixed;
   background-color: salmon ;
   width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+
 }
 
 /* styles footer text */
 .footertext {
   display: block;
   text-align: center;
+  margin: auto;
 }
