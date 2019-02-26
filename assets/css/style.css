@@ -1,12 +1,14 @@
 * {
- box-sizing: border-box;
- display: block;
- margin: 0px;
+ display: flex;
 }
 
 .banner {
-  margin: 0px;
-  margin-bottom: 20px;
+  float: right;
+  padding: 20px;
+  margin: 0;
+  display: inline;
+  
+  width: 100%;
 }
 
 /*styles navigation bar */
@@ -15,18 +17,24 @@
   display: block;
   width: 100%;
   height: 100%;
-  margin-bottom: 20px;
-  padding: 10px;
+}
+
+/* styles the nav bar links */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
 }
 
 /* styles the nav bar a tag */
-.nav a {
-  text-align: right;
-  float: right;
-  margin: 0px;
-  width: 25%;  
-  display: inline;
-  padding: 0px 0px 50px 70px;
+li a {
+  display: block;
+  padding: 8px;
 }
 
 /* styles header inside navbar*/
@@ -35,10 +43,8 @@ h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   float: left;
   text-align: left;
-  margin: 0px;
   width: 25%;
   height: 100%;
-  padding-right: 200px;
 }
 
 /* styles links inside navbar */
@@ -54,7 +60,10 @@ h1 {
 
 /* styles the body */
 body {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/gray.png");
+  height: 100vh;
 }
 
 /* styles inside of body section class */
@@ -64,8 +73,8 @@ body {
   width: 960px;
   height: 550px;
   background-color: white;
-  margin: 0px;
-  display: block;
+  margin: 0;
+  display: flex 1 0 auto;
 }
 
 /* styles the h2 tag inside of body section class */
@@ -91,11 +100,16 @@ p {
 }
 
 /* styles footer */
-footer {
-  background-color: ;
+.footer {
+  flex-shrink: 20px;
+  padding: 20px;
+  position: fixed;
+  background-color: salmon ;
+  width: 100%;
 }
 
 /* styles footer text */
 .footertext {
+  display: block;
   text-align: center;
 }
