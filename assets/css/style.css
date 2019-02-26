@@ -37,6 +37,19 @@ li a {
   display: block;
   padding: 8px;
   background-color: white;
+  color: black;
+}
+
+/* changes color of nav bar when hovering*/
+li a:hover {
+  background-color: #666666;
+  color: white;
+}
+
+/* shows current location inside navbar */
+.active {
+  text-align: right;
+  background-color: salmon;
 }
 
 /* styles header inside navbar*/
@@ -49,11 +62,6 @@ h1 {
   height: 100%;
 }
 
-/* styles links inside navbar */
-.active {
-  text-align: right;
-  background-color: salmon;
-}
 
 /* styles body background image*/
 #mainbackground { 
