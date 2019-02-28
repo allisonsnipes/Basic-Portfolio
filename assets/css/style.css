@@ -14,7 +14,7 @@
   background-color: white;
   position: relative;
   width: 100%;
-  height: 4em;
+  height: 5em;
 
 }
 
@@ -40,6 +40,7 @@ ul {
   display: inline;
   float: right;
   margin: 0em;
+  margin-top: -2em;
   margin-left: 26em;
   text-align: right;
   padding: 0;
@@ -85,8 +86,16 @@ body {
   margin-left: 6em;
   margin-top: 2em;
 }
+
 fieldset {
   background-color: white;
+  border: 200px;
+  padding: 30px;
+  width: 960px;
+  height: 550px;
+  margin: 0;
+  margin-left: 6em;
+  margin-top: 2em;
 }
 /* styles the h2 tag inside of body section class */
 .aboutMe, .contact {
@@ -95,17 +104,13 @@ fieldset {
 
 /*styles image */
 .img1 {
-  display: inline-block;
   float: left;
-  padding: 10px;
-  width: 350px;
+  width: 400px;
   height: 400px;
 }
 
 /* styles paragraph */
 p {
-  display: inline-block;
-  float: right;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
@@ -122,4 +127,13 @@ footer {
   margin: auto;
   text-align: center;
   width: 100%;
+}
+
+/* styles for button */
+.submitbutton {
+  background-color: salmon;
+  height: 6em;
+  width: 8em;
+  position: absolute;
+  text-align: center;
 }
