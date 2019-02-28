@@ -35,20 +35,11 @@ ul {
   margin-right: 0em;
   text-align: right;
   padding: 0em;
+  list-style-type: none;
 }
 
-/* styles the nav bar links */
-/* ul { */
-  /* list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  float: right;
-  height: 100%; */
-/* } */
-
 li {
-  float: right;
+  float: left;
 }
 
 /* styles the nav bar a tag */
