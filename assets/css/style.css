@@ -12,9 +12,15 @@
 /*styles navigation bar */
 .nav {
   background-color: white;
-  display: inline-block;
+  position: relative;
   width: 100%;
-  float: right;
+  height: 4em;
+
+}
+
+/* trying to change the height of the h1 element */
+.nav h1 {
+  height: 2em;
 }
 
 /* style section for header and nav bar*/
@@ -23,10 +29,10 @@ h1 {
   float: left;
   margin: 0em;
   margin-left: 93px;
+  margin-top: 1.12em;
   text-align: left;
   background-color: salmon;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  text-align: left;
+  font-family: 'Georgia', Times, Times, serif;
   padding: 0;
 }
 
@@ -34,14 +40,15 @@ ul {
   display: inline;
   float: right;
   margin: 0em;
-  margin-right: 0em;
+  margin-left: 26em;
   text-align: right;
-  padding: 0em;
+  padding: 0;
   list-style-type: none;
 }
 
 li {
   float: left;
+  margin-right: 26em;
 }
 
 /* styles the nav bar a tag */
