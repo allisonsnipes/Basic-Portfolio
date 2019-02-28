@@ -76,7 +76,7 @@ body {
 }
 
 /* styles inside of body section class */
-.boxsections {
+.boxSections {
   border: 200px;
   padding: 30px;
   width: 960px;
@@ -85,9 +85,11 @@ body {
   margin-left: 6em;
   margin-top: 2em;
 }
-
+fieldset {
+  background-color: white;
+}
 /* styles the h2 tag inside of body section class */
-.aboutme {
+.aboutMe, .contact {
   color: salmon;
 }
 
