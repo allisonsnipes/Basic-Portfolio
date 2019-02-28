@@ -19,16 +19,18 @@
 
 /* style section for header and nav bar*/
 h1 {
-  width: 50%;
   display: inline;
   float: left;
   margin: 0em;
   margin-left: 93px;
   text-align: left;
+  background-color: salmon;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  text-align: left;
+  padding: 0;
 }
 
 ul {
-  width: 50%;
   display: inline;
   float: right;
   margin: 0em;
@@ -59,16 +61,6 @@ li a:hover {
 /* shows current location inside navbar */
 .active {
   background-color: salmon;
-}
-
-/* styles header inside navbar*/
-h1 {
-  background-color: salmon;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  float: left;
-  text-align: left;
-  margin: auto;
-  padding: 0;
 }
 
 /* styles the body */
@@ -121,5 +113,4 @@ footer {
   margin: auto;
   text-align: center;
   width: 100%;
-
 }
