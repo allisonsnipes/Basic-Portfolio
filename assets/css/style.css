@@ -1,13 +1,12 @@
 .banner {
-  float: right;
   padding: 20px;
   margin: auto;
   margin-right: 120px;
   display: inline-block;
   width: 100%;
-  height: 30px;
   position: relative;
   padding: 2px;
+  margin-top: -1em;
 }
 
 /*styles navigation bar */
@@ -19,37 +18,34 @@
 }
 
 /* style section for header and nav bar*/
-.leftbox {
+h1 {
   width: 50%;
-  display: inline-block;
+  display: inline;
   float: left;
-  height: 100%;
-  margin: 0em left;
-  margin-left: 140px;
-  padding: 2px;
+  margin: 0em;
+  margin-left: 93px;
   text-align: left;
 }
 
-.rightbox{
+ul {
   width: 50%;
-  display: inline-block;
+  display: inline;
   float: right;
-  height: 100%;
-  margin: 0em right;
-  margin-right: 140px;
-  padding: 2px;
+  margin: 0em;
+  margin-right: 0em;
   text-align: right;
+  padding: 0em;
 }
 
 /* styles the nav bar links */
-ul {
-  list-style-type: none;
+/* ul { */
+  /* list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   float: right;
-  height: 100%;
-}
+  height: 100%; */
+/* } */
 
 li {
   float: right;
@@ -84,11 +80,6 @@ h1 {
   padding: 0;
 }
 
-/* styles body background image*/
-#mainbackground { 
-  
-}
-
 /* styles the body */
 body {
   background-image: url("../images/gray.png");
@@ -101,8 +92,8 @@ body {
   width: 960px;
   height: 550px;
   background-color: white;
-  margin-left: 3em;
-  display: flex 1 0 auto;
+  margin-left: 6em;
+  margin-top: 2em;
 }
 
 /* styles the h2 tag inside of body section class */
